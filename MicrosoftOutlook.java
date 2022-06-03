@@ -1,7 +1,6 @@
 public class MicrosoftOutlook {
     public MicrosoftOutlook openMicrosoftOutlook() {
-        MicrosoftOutlook outlookWindow = new MicrosoftOutlook();
-        return outlookWindow;
+        return new MicrosoftOutlook();
     }
     public static void closeOutlook() {
         System.out.println("Outlook Closed");
